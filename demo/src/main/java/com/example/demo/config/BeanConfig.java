@@ -13,6 +13,8 @@ public class BeanConfig {
     @SneakyThrows
     @Bean
     public XML producerXML(){
+
+
         return new XMLDocument(new File("src/main/resources/kafka/producer/xml"));
     }
 }
